@@ -52,6 +52,7 @@ for (let i = 0; i < card.length; i ++) {
 
 
 
+// Slideshow
 
 let slideIndex = 1;
 showSlides(slideIndex);

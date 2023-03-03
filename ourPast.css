@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient( var(--bg-color-three), var(--bg-color-four)); 
+}
+
+#our-past-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-past-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.our-past-text h2 {
+    margin-bottom: 40px;
+}
+.our-past-text h3 {
+    margin-bottom: 40px;
+}

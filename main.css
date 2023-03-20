@@ -213,6 +213,11 @@ nav {
     transition: .5s;
 }
 
+.hyperlink {
+    text-decoration: none;
+    color: var(--font-color-white);
+}
+
 
 .visit-us-button {
     padding: 10px 60px;
@@ -621,7 +626,8 @@ nav {
     width: 100%;
     text-align: center;
     background-color: rgb(240, 248, 255, .5);
-    font-family: var(--font-family-main);
+ /*   font-family: var(--font-family-main); */
+ font-family: 'Mynerve', cursive;
  /*   border-radius: 4px;   */
 }
 

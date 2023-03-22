@@ -44,11 +44,13 @@ menuToggle.addEventListener('click', () => {
 // Join + Hire Cards Flipped
 
 const card = document.querySelectorAll('.card-inner');
+
 for (let i = 0; i < card.length; i ++) {
     card[i].addEventListener("click", () => {
         card[i].classList.toggle('is-flipped');
     })
-};
+};  
+
 
 
 
